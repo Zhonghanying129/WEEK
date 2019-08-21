@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/first"
+            android:icon="@drawable/nav_mail"
+            android:title="屏幕检测"/>
+        <item android:id="@+id/second"
+            android:icon="@drawable/nav_mail"
+            android:title="应用信息"/>
+        <item android:id="@+id/space"
+            android:icon="@drawable/ic_music"
+            android:title="清理缓存"/>
+
+    </group>
+</menu>

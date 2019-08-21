@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:id="@+id/picture_categroy"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/bi_cate"
+        android:text="壁纸分类"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/bizhi_1"
+        android:layout_below="@+id/bi_cate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_all"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="全部"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_mingxing"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="明星"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_meinv"
+            android:layout_weight="1"
+            android:text="美女"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_qiche"
+            android:layout_weight="1"
+            android:text="汽车"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bizhi_2"
+        android:layout_below="@+id/bizhi_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_fengjing"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="风景"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_keai"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="可爱"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_weimei"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="唯美"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_dongman"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="动漫"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bizhi_3"
+        android:layout_below="@+id/bizhi_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_aiqing"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="爱情"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_youxi"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="游戏"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_yingshi"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="影视"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_dongwu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="动物"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bizhi_4"
+        android:layout_below="@+id/bizhi_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_zhiwu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="植物"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_tiyu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="体育"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_meishi"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="美食"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_chuangyi"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="创意"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/color_cate"
+        android:layout_below="@+id/bizhi_4"
+        android:text="颜色分类"
+        android:textColor="#000000"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/bizhi_color"
+        android:orientation="horizontal"
+        android:layout_below="@+id/color_cate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_yellow"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="黄色"
+            android:background="#ffff00"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_orange"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="橙色"
+            android:background="#FFA500"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_red"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="红色"
+            android:background="#FF0000"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_pink"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="粉色"
+            android:background="#FFC0CB"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_zise"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="紫色"
+            android:background="#800080"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_below="@+id/bizhi_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/button_green"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="绿色"
+            android:background="#90EE90"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_bule"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="蓝色"
+            android:background="#00BFFF"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_huise"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="灰色"
+            android:background="#A9A9A9"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_black"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="黑色"
+            android:background="#000000"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="白色"
+            android:background="#FFFFFF"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

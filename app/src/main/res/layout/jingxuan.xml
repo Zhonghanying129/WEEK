@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/jingxuan_title"
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/jingxuan_pic"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/jingxuan_title"
+        android:layout_height="300dp" />
+    <TextView
+        android:id="@+id/jingxuan_time"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/jingxuan_pic"
+        android:layout_alignRight="@+id/jingxuan_pic"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/jingxuan_src"
+        android:layout_below="@+id/jingxuan_pic"
+        android:layout_alignLeft="@+id/jingxuan_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/jingxuan_category"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/jingxuan_src"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

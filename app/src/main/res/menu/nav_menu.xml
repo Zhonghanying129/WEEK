@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/nav_call"
+            android:title="检测"/>
+        <item
+            android:id="@+id/nav_system"
+            android:icon="@drawable/ic_settings"
+            android:title="应用"/>
+        <item
+            android:id="@+id/nav_purse"
+            android:icon="@drawable/ic_purse"
+            android:title="定位"/>
+        <item
+            android:id="@+id/nav_photo"
+            android:icon="@drawable/ic_photo"
+            android:title="壁纸"/>
+        <item
+            android:id="@+id/nav_task"
+            android:icon="@drawable/nav_task"
+            android:title="系统"/>
+        <item android:id="@+id/nav_sensor"
+            android:icon="@drawable/nav_task"
+            android:title="指南针"/>
+    </group>
+
+</menu>
